@@ -39,7 +39,7 @@ class ListPage extends StatefulWidget{
                           children: <Widget>[
                             new Text("Titulo: "+photo['title'],
                             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 23)),
-                            new Imae.network(photo['url'], height: 200),
+                            new Image.network(photo['url'], height: 200),
                             new Image.network(photo[' thumbnailUrl'], height: 200)
                           ],
                         ),
